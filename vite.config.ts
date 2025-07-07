@@ -22,7 +22,7 @@ import { defineConfig, loadEnv } from 'vite';
 
 export default defineConfig(({ mode }) => {
     // Replace 'your-repo-name' with the actual name of your GitHub repository
-    const repoName = 'your-repo-name'; 
+    const repoName = 'applitracker'; 
 
     const env = loadEnv(mode, '.', '');
     return {
