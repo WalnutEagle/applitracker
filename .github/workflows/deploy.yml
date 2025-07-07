@@ -38,8 +38,8 @@ jobs:
       - name: Build
         run: npm run build
         env:
-          APP_LOGIN_ID: ${{ secrets.APP_LOGIN_ID }}
-          APP_PASSWORD: ${{ secrets.APP_PASSWORD }}
+          VITE_APP_LOGIN_ID: ${{ secrets.APP_LOGIN_ID }}
+          VITE_APP_PASSWORD: ${{ secrets.APP_PASSWORD }}
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
