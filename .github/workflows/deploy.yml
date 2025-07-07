@@ -33,7 +33,7 @@ jobs:
           node-version: 22
           cache: 'npm'
       - name: Install dependencies
-        run: npm configure
+        run: npm ci
       - name: Build
         run: npm run build
       - name: Setup Pages
