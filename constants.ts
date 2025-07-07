@@ -1,8 +1,8 @@
 // WARNING: Hardcoding credentials is insecure and should not be done in a real-world production application.
 // This is for demonstration purposes only, as per the user's request for a serverless static app.
 export const USER_CREDENTIALS = {
-  username: "admin",
-  password: "password123",
+  username: import.meta.env.APP_LOGIN_ID || "dev_user",
+  password: import.meta.env.APP_PASSWORD || "dev_pass",
 };
 
 export const LOCAL_STORAGE_KEYS = {
