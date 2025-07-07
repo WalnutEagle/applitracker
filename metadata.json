@@ -1,0 +1,5 @@
+{
+  "name": "Job Application Tracker",
+  "description": "A beautiful, interactive, and password-protected web application to track daily job applications. Features include a counter, a daily goal setter, and a simulated email notification system for missed targets.",
+  "requestFramePermissions": []
+}
